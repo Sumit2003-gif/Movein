@@ -118,7 +118,7 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <button className="mt-8 flex justify-center cursor-pointer items-center gap-3 w-1/2  bg-[#F54A00] text-white px-6 py-3 rounded-lg font-semibold text-lg hover:bg-white border-2 hover:text-[#F54A00] transition duration-300 shadow-lg">
+          <button className="mt-8 flex justify-center cursor-pointer items-center gap-3 md:w-1/2  bg-[#F54A00] text-white px-6 py-3 rounded-lg font-semibold text-lg hover:bg-white border-2 hover:text-[#F54A00] transition duration-300 shadow-lg">
             More About Us
             <img
               src="https://demo.awaikenthemes.com/html-preview/movein/images/arrow-white.svg"
