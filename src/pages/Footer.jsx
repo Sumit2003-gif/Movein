@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -30,11 +31,10 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4">Quick Link</h3>
           <ul className="space-y-2 text-sm text-gray-300">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Services</a></li>
-            <li><a href="#">Latest Projects</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact Us</a></li>
           </ul>
         </div>
 
@@ -70,9 +70,9 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="px-4 py-3 rounded-md text-sm focus:outline-none text-black"
+              className="px-4 py-3 rounded-md placeholder:text-amber-50 border-2 border-gray-50 text-sm focus:outline-none text-black"
             />
-            <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-md transition duration-300 flex items-center justify-center gap-2">
+            <button className="bg-orange-500 cursor-pointer hover:bg-orange-600 text-white  font-semibold px-6 py-3 rounded-md transition duration-300 flex items-center justify-center gap-2">
               Subscribe <span>→</span>
             </button>
           </div>
@@ -84,13 +84,13 @@ const Footer = () => {
         <p>Copyright © 2025 All Rights Reserved.</p>
         <div className="flex gap-4 mt-4 md:mt-0">
           <a href="#" className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-black hover:bg-orange-500 hover:text-white transition">
-            🌐
+            <FaInstagram/>
           </a>
           <a href="#" className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-black hover:bg-orange-500 hover:text-white transition">
-            f
+            <FaFacebook/>
           </a>
           <a href="#" className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-black hover:bg-orange-500 hover:text-white transition">
-            📷
+            <FaTwitter/>
           </a>
         </div>
       </div>

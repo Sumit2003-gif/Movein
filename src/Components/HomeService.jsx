@@ -63,7 +63,8 @@ const Card = ({ title, description, icon }) => {
 
       {/* Hover effect for button */}
       <motion.button
-        className="inline-flex items-center bg-orange-500 hover:bg-white hover:text-orange-500 text-white py-2 px-6 rounded-full mt-4 transition duration-300"
+      onClick={()=>window.scrollTo({top:0,behavior:'smooth'})}
+        className="inline-flex items-center bg-orange-500 hover:bg-white hover:text-orange-500 hover:border-orange-500 border-2 cursor-pointer text-white py-2 px-6 rounded-full mt-4 transition duration-300"
         whileHover={{ scale: 1.1 }}
       >
         Read More

@@ -10,11 +10,13 @@ import About from './pages/About'
 import Blog from './pages/Blog'
 import BlogDetail from './Components/BlogDetail'
 import Contact from './pages/Contact'
+import ScrollToTop from './Components/ScrollToTop'
 
 function App() {
 
   return (
       <div className=''>
+        <ScrollToTop/>
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}/>

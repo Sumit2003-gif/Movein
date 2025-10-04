@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 // Variants for Animations
 const containerVariants = {
@@ -117,7 +118,7 @@ const AboutUs = () => {
               </p>
             </div>
           </div>
-
+            <Link to='/about'>
           <button className="mt-8 flex justify-center cursor-pointer items-center gap-3 md:w-1/2  bg-[#F54A00] text-white px-6 py-3 rounded-lg font-semibold text-lg hover:bg-white border-2 hover:text-[#F54A00] transition duration-300 shadow-lg">
             More About Us
             <img
@@ -126,6 +127,7 @@ const AboutUs = () => {
               className="w-5 h-5"
             />
           </button>
+          </Link>
         </motion.div>
       </motion.div>
 
