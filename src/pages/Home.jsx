@@ -10,7 +10,7 @@ import BlogSection from '../Components/BlogSection'
 
 const Home = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <section>
       <HomeHero/>
       </section>
